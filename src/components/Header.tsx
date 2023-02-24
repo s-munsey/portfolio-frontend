@@ -13,18 +13,45 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to="/">About Me</Link>&nbsp;
-            <Link to="/bookshelf">Bookshelf</Link>&nbsp;
-            <Link to="/bookshelf">Blog</Link>
-          </Typography>
-
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-            Shaun's Pages
-          </Typography>
-          <Link to="/login">
-            <Button color="inherit">Login</Button>
-          </Link>
+          <Box display="flex" justifyContent="space-between" width="100%">
+            <Typography
+              variant="h6"
+              component="div"
+              align="center"
+              width="30%"
+              sx={{ flexGrow: 1 }}
+            >
+              <Link to="/" className="header-link">
+                About Me
+              </Link>
+              <Link to="/bookshelf" className="header-link">
+                Bookshelf
+              </Link>
+              <Link to="/bookshelf" className="header-link">
+                Blog
+              </Link>
+            </Typography>
+            <Typography
+              variant="h4"
+              component="div"
+              align="center"
+              width="30%"
+              sx={{ flexGrow: 1, justifyContent: "center" }}
+            >
+              Shaun's Pages
+            </Typography>
+            <Typography
+              variant="h4"
+              component="div"
+              align="center"
+              width="30%"
+              sx={{ flexGrow: 1, justifyContent: "center" }}
+            >
+              <Link to="/login">
+                <Button color="inherit">Login</Button>
+              </Link>
+            </Typography>
+          </Box>
         </Toolbar>
       </AppBar>
     </Box>

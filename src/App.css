@@ -1,0 +1,10 @@
+.header-link {
+  padding: 5px;
+}
+
+.header-item {
+  justify-content: center;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
