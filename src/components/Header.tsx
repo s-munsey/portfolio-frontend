@@ -27,7 +27,7 @@ export default function ButtonAppBar() {
               <Link to="/bookshelf" className="header-link">
                 Bookshelf
               </Link>
-              <Link to="/bookshelf" className="header-link">
+              <Link to="/blog" className="header-link">
                 Blog
               </Link>
             </Typography>
