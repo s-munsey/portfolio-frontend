@@ -15,7 +15,7 @@ const Login = () => {
     <Container maxWidth="sm">
       <Paper sx={{ marginTop: "10%", padding: "2em" }}>
         <form autoComplete="off">
-          <h2>Login</h2>
+          <h1>Login</h1>
           <TextField
             label="Email"
             required
